@@ -5,16 +5,14 @@ import net.serenitybdd.screenplay.targets.Target;
 import net.thucydides.core.webdriver.shadow.ByShadow;
 import org.openqa.selenium.By;
 
-public class LoginUserinterface {
+public class LoginSiigoUserinterface {
 
-    private LoginUserinterface() {
+    private LoginSiigoUserinterface() {
     }
 
     public static final Target INPUT_USER = Target.the("Ingresar usuario")
             .located(ByShadow.cssSelector("input[name='username-input']",
                     "input-atom[input-id='username-input']"));
-
-
 
     public static final Target INPUT_PASSWORD = Target.the("Ingresar contraseña ")
             .located(ByShadow.cssSelector("input[name='password-input']",

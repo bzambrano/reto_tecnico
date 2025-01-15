@@ -1,4 +1,4 @@
-package co.com.siigo.stepdefinitions;
+package co.com.siigo.stepdefinitions.api;
 
 import co.com.siigo.questions.ValidateResponseCode;
 import co.com.siigo.questions.ValidateUserData;

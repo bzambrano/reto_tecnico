@@ -1,4 +1,4 @@
-package co.com.siigo.stepdefinitions;
+package co.com.siigo.stepdefinitions.ui;
 
 import co.com.siigo.tasks.NavigateToSection;
 import io.cucumber.java.es.Cuando;
